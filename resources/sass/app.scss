@@ -6,3 +6,13 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+@import '~leaflet/dist/leaflet.css';
+
+.map-card {
+    height: 85vh;
+}
+
+.map {
+    height: 75vh;
+}

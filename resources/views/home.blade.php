@@ -1,20 +1,14 @@
 @extends('layouts.app')
 
+@section('body-class', 'bg-primary')
+
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
-
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    {{ __('You are logged in!') }}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <div class="card border-0 map-card">
+                <div class="card-body bg-dark text-white">
+                    <map-component></map-component>
                 </div>
             </div>
         </div>

@@ -13,3 +13,4 @@ yarn-error.log
 /public/mix-manifest.js
 /public/js
 /public/css
+/public/images/vendor
