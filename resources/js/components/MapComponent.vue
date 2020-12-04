@@ -1,7 +1,10 @@
 <template>
     <div class="row h-100">
         <div class="col">
-            <h4>Map</h4>
+            <h4>
+                Map <span class="h5 text-muted">&mdash; if the map is partially loaded, press Ctrl + F5</span>
+            </h4>
+
             <div class="map" ref="map"></div>
         </div>
 
