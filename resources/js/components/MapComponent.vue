@@ -66,7 +66,7 @@
             markerUpdateLoop() {
                 setInterval(async () => {
                     await this.update();
-                }, 10 * 1000);
+                }, 3 * 1000);
             },
 
             updateMarkers() {
